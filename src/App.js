@@ -104,7 +104,7 @@ class App extends Component {
               <ContactItem
                 key={eachContact.id}
                 contactDetails={eachContact}
-                toggleIsFavourite={this.toggleIsFavorite}
+                toggleIsFavorite={this.toggleIsFavorite}
               />
             ))}
           </ul>
